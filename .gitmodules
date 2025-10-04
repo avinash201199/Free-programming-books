@@ -1,0 +1,3 @@
+[submodule "free-reads"]
+	path = free-reads
+	url = https://github.com/992manav/free-reads.git
