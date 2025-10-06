@@ -577,7 +577,7 @@ export const categories = [
   "Cyber Security",
   "Computer Networking",
   "Interview Preparation",
-  "Typescript Programming",
+  "Typescript Programming"
 ];
 
 export const languages = [
