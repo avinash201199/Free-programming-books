@@ -545,6 +545,21 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving"]
   },
+
+  // Typescript
+  {
+    id: "typescript-1",
+    title: "TYPESCRIPT JUMPSTART BY ANGULAR UNIVERSITY",
+    author: "Vasco",
+    category: "Typescript Programming",
+    language: "General",
+    pages: 44,
+    year: 2021,
+    description: "Focuses on how TypeScript supports better code structure, type safety, and developer productivity in Angular apps",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Typescript",
+    level: "All Levels",
+    tags: ["language", "script", "development", "Beginner-Friendly"]
+  },
 ];
 
 export const categories = [
@@ -561,7 +576,8 @@ export const categories = [
   "Cloud Computing",
   "Cyber Security",
   "Computer Networking",
-  "Interview Preparation"
+  "Interview Preparation",
+  "Typescript Programming",
 ];
 
 export const languages = [
