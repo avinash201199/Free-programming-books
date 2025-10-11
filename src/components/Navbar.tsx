@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { Menu, X, BookOpen } from "lucide-react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Menu, X, BookOpen, Search as SearchIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [query, setQuery] = useState("");
   const location = useLocation();
+  const navigate = useNavigate();
 
   const navLinks = [
     { path: "/", label: "Home" },
@@ -33,7 +36,22 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-3">
+            {/* Search */}
+            <div className="relative">
+              <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <Input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    navigate(`/search${query ? `?q=${encodeURIComponent(query)}` : ""}`);
+                  }
+                }}
+                placeholder="Search books..."
+                className="pl-8 h-9 w-64"
+              />
+            </div>
             {navLinks.map((link) => (
               <Link key={link.path} to={link.path}>
                 <Button
@@ -78,6 +96,22 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4 space-y-2 animate-fade-in">
+            {/* Mobile Search */}
+            <div className="relative">
+              <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <Input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    setIsOpen(false);
+                    navigate(`/search${query ? `?q=${encodeURIComponent(query)}` : ""}`);
+                  }
+                }}
+                placeholder="Search books..."
+                className="pl-8 h-10"
+              />
+            </div>
             {navLinks.map((link) => (
               <Link
                 key={link.path}

@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contributors from "./pages/Contributors";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Search from "./pages/Search";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/books" element={<Books />} />
+              <Route path="/search" element={<Search />} />
               <Route path="/about" element={<About />} />
               <Route path="/contributors" element={<Contributors />} />
               <Route path="/contact" element={<Contact />} />
