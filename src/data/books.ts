@@ -610,6 +610,20 @@ export const books: Book[] = [
     level: "Basic to Advanced",
     tags: ["DataBase", "DB", "Web dev"]
   },
+  {
+  id: "dbms-2",
+  title: "Database System Concepts",
+  author: "Henry F. Korth, Abraham Silberschatz, and S. Sudarshan",
+  category: "DataBase Management",
+  language: "General",
+  pages: 1376,
+  year: 2019,
+  description: "Comprehensive and widely used textbook covering core DBMS concepts, design, and implementation.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+  level: "Intermediate to Advanced",
+  tags: ["DBMS", "Database", "SQL", "Data Modeling"]
+}
+
 ];
 
 export const categories = [
