@@ -23,11 +23,13 @@ export const books: Book[] = [
     language: "Python",
     pages: 544,
     year: 2019,
-    description: "A hands-on, project-based introduction to programming with Python. Perfect for beginners.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    description:
+      "A hands-on, project-based introduction to programming with Python. Perfect for beginners.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Beginner",
     tags: ["Python", "Basics", "Projects", "Beginner-Friendly"],
-    featured: true
+    featured: true,
   },
   {
     id: "python-2",
@@ -37,11 +39,13 @@ export const books: Book[] = [
     language: "Python",
     pages: 504,
     year: 2020,
-    description: "Learn how to use Python to write programs that do in minutes what would take you hours to do by hand.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    description:
+      "Learn how to use Python to write programs that do in minutes what would take you hours to do by hand.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Beginner",
     tags: ["Python", "Automation", "Scripting", "Practical"],
-    featured: true
+    featured: true,
   },
   {
     id: "python-3",
@@ -51,10 +55,12 @@ export const books: Book[] = [
     language: "Python",
     pages: 544,
     year: 2022,
-    description: "Get complete instructions for manipulating, processing, cleaning, and crunching datasets in Python.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    description:
+      "Get complete instructions for manipulating, processing, cleaning, and crunching datasets in Python.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Intermediate",
-    tags: ["Python", "Data Analysis", "Pandas", "NumPy"]
+    tags: ["Python", "Data Analysis", "Pandas", "NumPy"],
   },
   {
     id: "python-4",
@@ -64,10 +70,12 @@ export const books: Book[] = [
     language: "Python",
     pages: 1648,
     year: 2013,
-    description: "Comprehensive guide to Python programming covering all aspects from basics to advanced.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    description:
+      "Comprehensive guide to Python programming covering all aspects from basics to advanced.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "All Levels",
-    tags: ["Python", "Comprehensive", "Reference"]
+    tags: ["Python", "Comprehensive", "Reference"],
   },
   {
     id: "python-5",
@@ -77,10 +85,12 @@ export const books: Book[] = [
     language: "Python",
     pages: 316,
     year: 2018,
-    description: "Learn to build web applications using Python and the Flask framework.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    description:
+      "Learn to build web applications using Python and the Flask framework.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Intermediate",
-    tags: ["Python", "Flask", "Web Development", "Backend"]
+    tags: ["Python", "Flask", "Web Development", "Backend"],
   },
   {
     id: "python-6",
@@ -91,35 +101,36 @@ export const books: Book[] = [
     pages: 240,
     year: 2015,
     description: "How to Think Like a Computer Scientist.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Intermediate",
-    tags: ["Python", "Basic Definition","OOPs","Intermediate"]
-  },{
-  id: "python-7",
-  title: "Getting Started with Python: From Basics to Applications",
-  author: "Hans-Petter",
-  category: "Python Programming",
-  language: "Python",
-  pages: 140,
-  year: 2019,
-  description: "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
-  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
-  level: "Intermediate",
-  tags: [
-
-    "Installation",
-    "Beginner",
-    "Intermediate",
-    "Functions",
-    "OOP",
-    "Modules",
-    "File Handling",
-    "Error Handling",
-    "Debugging",
-
-  ]
-}
-,
+    tags: ["Python", "Basic Definition", "OOPs", "Intermediate"],
+  },
+  {
+    id: "python-7",
+    title: "Getting Started with Python: From Basics to Applications",
+    author: "Hans-Petter",
+    category: "Python Programming",
+    language: "Python",
+    pages: 140,
+    year: 2019,
+    description:
+      "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Intermediate",
+    tags: [
+      "Installation",
+      "Beginner",
+      "Intermediate",
+      "Functions",
+      "OOP",
+      "Modules",
+      "File Handling",
+      "Error Handling",
+      "Debugging",
+    ],
+  },
   // Java Books
   {
     id: "java-1",
@@ -129,11 +140,13 @@ export const books: Book[] = [
     language: "Java",
     pages: 416,
     year: 2018,
-    description: "Best practices and design patterns for Java programming with 90 new rules.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
+    description:
+      "Best practices and design patterns for Java programming with 90 new rules.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
     level: "Intermediate",
     tags: ["Java", "Best Practices", "Design Patterns"],
-    featured: true
+    featured: true,
   },
   {
     id: "java-2",
@@ -143,10 +156,12 @@ export const books: Book[] = [
     language: "Java",
     pages: 720,
     year: 2005,
-    description: "A brain-friendly guide to learning Java with engaging visuals and activities.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
+    description:
+      "A brain-friendly guide to learning Java with engaging visuals and activities.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
     level: "Beginner",
-    tags: ["Java", "Beginner-Friendly", "OOP"]
+    tags: ["Java", "Beginner-Friendly", "OOP"],
   },
   {
     id: "java-3",
@@ -156,10 +171,12 @@ export const books: Book[] = [
     language: "Java",
     pages: 520,
     year: 2022,
-    description: "Comprehensive guide to Spring Framework and Spring Boot for enterprise applications.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
+    description:
+      "Comprehensive guide to Spring Framework and Spring Boot for enterprise applications.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
     level: "Advanced",
-    tags: ["Java", "Spring", "Spring Boot", "Enterprise"]
+    tags: ["Java", "Spring", "Spring Boot", "Enterprise"],
   },
   {
     id: "java-4",
@@ -169,10 +186,12 @@ export const books: Book[] = [
     language: "Java",
     pages: 1248,
     year: 2021,
-    description: "The definitive guide to Java programming covering Java SE 17.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
+    description:
+      "The definitive guide to Java programming covering Java SE 17.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
     level: "All Levels",
-    tags: ["Java", "Reference", "Comprehensive"]
+    tags: ["Java", "Reference", "Comprehensive"],
   },
 
   // Web Development Books
@@ -184,11 +203,13 @@ export const books: Book[] = [
     language: "JavaScript",
     pages: 472,
     year: 2018,
-    description: "A modern introduction to programming with JavaScript, including DOM manipulation and Node.js.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    description:
+      "A modern introduction to programming with JavaScript, including DOM manipulation and Node.js.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Beginner",
     tags: ["JavaScript", "Web", "Programming Fundamentals"],
-    featured: true
+    featured: true,
   },
   {
     id: "web-2",
@@ -199,9 +220,10 @@ export const books: Book[] = [
     pages: 278,
     year: 2020,
     description: "Deep dive into the core mechanisms of JavaScript language.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Intermediate",
-    tags: ["JavaScript", "Advanced", "Deep Dive"]
+    tags: ["JavaScript", "Advanced", "Deep Dive"],
   },
   {
     id: "web-3",
@@ -212,9 +234,10 @@ export const books: Book[] = [
     pages: 233,
     year: 2021,
     description: "Build web applications with React and modern JavaScript.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Intermediate",
-    tags: ["React", "JavaScript", "Frontend", "SPA"]
+    tags: ["React", "JavaScript", "Frontend", "SPA"],
   },
   {
     id: "web-4",
@@ -225,9 +248,10 @@ export const books: Book[] = [
     pages: 512,
     year: 2011,
     description: "Beautiful visual guide to HTML and CSS for beginners.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Beginner",
-    tags: ["HTML", "CSS", "Web Design", "Beginner"]
+    tags: ["HTML", "CSS", "Web Design", "Beginner"],
   },
   {
     id: "Flutter-1",
@@ -238,9 +262,10 @@ export const books: Book[] = [
     pages: 531,
     year: 2020,
     description: "A hands on guide to app development",
-    downloadLink: "https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf",
+    downloadLink:
+      "https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf",
     level: "Beginner",
-    tags: ["app development", "dart", "Flutter", "Beginner"]
+    tags: ["app development", "dart", "Flutter", "Beginner"],
   },
   {
     id: "web-5",
@@ -250,10 +275,12 @@ export const books: Book[] = [
     language: "JavaScript",
     pages: 526,
     year: 2020,
-    description: "Master best practices to build modular and scalable server-side applications.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    description:
+      "Master best practices to build modular and scalable server-side applications.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Advanced",
-    tags: ["Node.js", "Backend", "Design Patterns", "JavaScript"]
+    tags: ["Node.js", "Backend", "Design Patterns", "JavaScript"],
   },
 
   // Data Structures & Algorithms
@@ -265,11 +292,13 @@ export const books: Book[] = [
     language: "General",
     pages: 1312,
     year: 2009,
-    description: "The comprehensive guide to algorithms, often called the 'CLRS' book.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    description:
+      "The comprehensive guide to algorithms, often called the 'CLRS' book.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "All Levels",
     tags: ["Algorithms", "Data Structures", "Academic", "Reference"],
-    featured: true
+    featured: true,
   },
   {
     id: "dsa-2",
@@ -279,11 +308,13 @@ export const books: Book[] = [
     language: "General",
     pages: 708,
     year: 2015,
-    description: "189 programming questions and solutions for technical interviews.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    description:
+      "189 programming questions and solutions for technical interviews.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "Intermediate",
     tags: ["Interview Prep", "Coding Problems", "Algorithms"],
-    featured: true
+    featured: true,
   },
   {
     id: "dsa-3",
@@ -294,9 +325,10 @@ export const books: Book[] = [
     pages: 222,
     year: 2013,
     description: "An accessible introduction to algorithms for non-experts.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "Beginner",
-    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals"]
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals"],
   },
   {
     id: "dsa-4",
@@ -307,9 +339,10 @@ export const books: Book[] = [
     pages: 412,
     year: 2020,
     description: "An accessible introduction to algorithms for non-experts.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "Beginner",
-    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"]
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"],
   },
 
   {
@@ -321,9 +354,10 @@ export const books: Book[] = [
     pages: 828,
     year: 2017,
     description: "An accessible introduction to algorithms for non-experts.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "Beginner",
-    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "C"]
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "C"],
   },
 
   // Machine Learning
@@ -335,11 +369,13 @@ export const books: Book[] = [
     language: "Python",
     pages: 856,
     year: 2022,
-    description: "Practical guide to ML with Scikit-Learn, Keras, and TensorFlow.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    description:
+      "Practical guide to ML with Scikit-Learn, Keras, and TensorFlow.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Intermediate",
     tags: ["Machine Learning", "Python", "TensorFlow", "Scikit-Learn"],
-    featured: true
+    featured: true,
   },
   {
     id: "ml-2",
@@ -349,23 +385,27 @@ export const books: Book[] = [
     language: "General",
     pages: 738,
     year: 2006,
-    description: "Comprehensive introduction to the fields of pattern recognition and machine learning.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    description:
+      "Comprehensive introduction to the fields of pattern recognition and machine learning.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Advanced",
-    tags: ["Machine Learning", "Pattern Recognition", "Theory"]
+    tags: ["Machine Learning", "Pattern Recognition", "Theory"],
   },
   {
-  id: "ml-3",
-  title: "Deep Learning",
-  author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
-  category: "Machine Learning",
-  language: "General",
-  pages: 801,
-  year: 2016,
-  description: "Deep Learning is one of the most widely recognized and authoritative books covering modern deep learning theory, algorithms, and applications.",
-  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-  level: "Advanced",
-  tags: ["Deep Learning", "Neural Networks", "AI"]
+    id: "ml-3",
+    title: "Deep Learning",
+    author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    category: "Machine Learning",
+    language: "General",
+    pages: 801,
+    year: 2016,
+    description:
+      "Deep Learning is one of the most widely recognized and authoritative books covering modern deep learning theory, algorithms, and applications.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Advanced",
+    tags: ["Deep Learning", "Neural Networks", "AI"],
   },
   {
     id: "ml-4",
@@ -376,23 +416,26 @@ export const books: Book[] = [
     pages: 741,
     year: 2016,
     description: "The Beginner textbook on Machine Learning from Pearson.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Beginner",
-    tags: ["Machine Learning", "ML", "DS"]
+    tags: ["Machine Learning", "ML", "DS"],
   },
   {
-  "id": "ml-5",
-  "title": "Mathematics for Machine Learning",
-  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
-  "category": "Machine Learning",
-  "language": "General",
-  "pages": 417,
-  "year": 2020,
-  "level": "All Levels",
-  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
-  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
-  "featured": true
+    id: "ml-5",
+    title: "Mathematics for Machine Learning",
+    author: "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+    category: "Machine Learning",
+    language: "General",
+    pages: 417,
+    year: 2020,
+    level: "All Levels",
+    description:
+      "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+    tags: ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+    featured: true,
   },
   {
     id: "ml-6",
@@ -402,10 +445,12 @@ export const books: Book[] = [
     language: "General",
     pages: 823,
     year: 2005,
-    description: "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    description:
+      "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
+    tags: ["Deep Learning", "Neural Networks", "AI"],
   },
   {
     id: "ml-7",
@@ -415,12 +460,13 @@ export const books: Book[] = [
     language: "General",
     pages: 1012,
     year: 1995,
-    description: "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    description:
+      "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
+    tags: ["Deep Learning", "Neural Networks", "AI"],
   },
-
 
   // AI Books
   {
@@ -432,10 +478,11 @@ export const books: Book[] = [
     pages: 1152,
     year: 2020,
     description: "The most comprehensive and authoritative textbook on AI.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial%20Intelligence",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial%20Intelligence",
     level: "All Levels",
     tags: ["AI", "Comprehensive", "Theory", "Practice"],
-    featured: true
+    featured: true,
   },
   {
     id: "ai-2",
@@ -446,9 +493,10 @@ export const books: Book[] = [
     pages: 384,
     year: 2017,
     description: "Explores the future of AI and its impact on humanity.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial%20Intelligence",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial%20Intelligence",
     level: "Beginner",
-    tags: ["AI", "Future", "Philosophy", "Society"]
+    tags: ["AI", "Future", "Philosophy", "Society"],
   },
 
   // Data Science
@@ -460,10 +508,12 @@ export const books: Book[] = [
     language: "Python",
     pages: 548,
     year: 2016,
-    description: "Essential tools for working with data: NumPy, Pandas, Matplotlib, Scikit-Learn.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Science",
+    description:
+      "Essential tools for working with data: NumPy, Pandas, Matplotlib, Scikit-Learn.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Science",
     level: "Intermediate",
-    tags: ["Data Science", "Python", "NumPy", "Pandas"]
+    tags: ["Data Science", "Python", "NumPy", "Pandas"],
   },
   {
     id: "ds-2",
@@ -473,10 +523,12 @@ export const books: Book[] = [
     language: "Python",
     pages: 406,
     year: 2019,
-    description: "Learn data science fundamentals by implementing from scratch.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Science",
+    description:
+      "Learn data science fundamentals by implementing from scratch.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Science",
     level: "Beginner",
-    tags: ["Data Science", "Python", "Fundamentals"]
+    tags: ["Data Science", "Python", "Fundamentals"],
   },
 
   // C Programming
@@ -488,11 +540,13 @@ export const books: Book[] = [
     language: "C",
     pages: 272,
     year: 1988,
-    description: "The definitive guide to C, written by the language's creators.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C",
+    description:
+      "The definitive guide to C, written by the language's creators.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/C",
     level: "All Levels",
     tags: ["C", "Classic", "Fundamentals"],
-    featured: true
+    featured: true,
   },
   {
     id: "c-2",
@@ -503,9 +557,24 @@ export const books: Book[] = [
     pages: 832,
     year: 2008,
     description: "Modern and comprehensive introduction to C programming.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/C",
     level: "Beginner",
-    tags: ["C", "Modern", "Comprehensive"]
+    tags: ["C", "Modern", "Comprehensive"],
+  },
+  {
+    id: "c-3",
+    title: "Programming in C (3rd Edition)",
+    author: "Stephen G Kochan",
+    category: "C Programming",
+    language: "C",
+    pages: 564,
+    year: 2004,
+    description: "A complete introduction to C programming language.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/C",
+    level: "Beginner",
+    tags: ["C", "Modern", "Comprehensive"],
   },
 
   // C++ Programming
@@ -518,9 +587,10 @@ export const books: Book[] = [
     pages: 1376,
     year: 2013,
     description: "The definitive guide to C++ by its creator.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
     level: "All Levels",
-    tags: ["C++", "Comprehensive", "Reference"]
+    tags: ["C++", "Comprehensive", "Reference"],
   },
   {
     id: "cpp-2",
@@ -531,9 +601,10 @@ export const books: Book[] = [
     pages: 336,
     year: 2014,
     description: "42 specific ways to improve your use of C++11 and C++14.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
     level: "Intermediate",
-    tags: ["C++", "Modern C++", "Best Practices"]
+    tags: ["C++", "Modern C++", "Best Practices"],
   },
 
   // Android Development
@@ -546,9 +617,10 @@ export const books: Book[] = [
     pages: 720,
     year: 2021,
     description: "Hands-on guide to Android app development with Kotlin.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Android%20development",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Android%20development",
     level: "Beginner",
-    tags: ["Android", "Kotlin", "Mobile", "App Development"]
+    tags: ["Android", "Kotlin", "Mobile", "App Development"],
   },
   {
     id: "android-2",
@@ -559,9 +631,10 @@ export const books: Book[] = [
     pages: 704,
     year: 2017,
     description: "Brain-friendly guide to building Android apps.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Android%20development",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Android%20development",
     level: "Beginner",
-    tags: ["Android", "Java", "Beginner-Friendly"]
+    tags: ["Android", "Java", "Beginner-Friendly"],
   },
 
   // Cloud Computing
@@ -574,9 +647,10 @@ export const books: Book[] = [
     pages: 912,
     year: 2020,
     description: "Comprehensive guide to AWS cloud services and architecture.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Cloud",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Cloud",
     level: "Intermediate",
-    tags: ["AWS", "Cloud", "Architecture", "Certification"]
+    tags: ["AWS", "Cloud", "Architecture", "Certification"],
   },
   {
     id: "cloud-2",
@@ -587,9 +661,10 @@ export const books: Book[] = [
     pages: 624,
     year: 2017,
     description: "Learn Kubernetes container orchestration from the ground up.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Cloud",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Cloud",
     level: "Intermediate",
-    tags: ["Kubernetes", "DevOps", "Containers"]
+    tags: ["Kubernetes", "DevOps", "Containers"],
   },
 
   // Cyber Security
@@ -602,9 +677,10 @@ export const books: Book[] = [
     pages: 912,
     year: 2011,
     description: "Finding and exploiting security flaws in web applications.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Cyber%20Security",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Cyber%20Security",
     level: "Advanced",
-    tags: ["Security", "Hacking", "Web Security"]
+    tags: ["Security", "Hacking", "Web Security"],
   },
   {
     id: "security-2",
@@ -615,9 +691,10 @@ export const books: Book[] = [
     pages: 488,
     year: 2008,
     description: "Introduction to hacking techniques and security concepts.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Cyber%20Security",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Cyber%20Security",
     level: "Intermediate",
-    tags: ["Security", "Ethical Hacking", "Exploitation"]
+    tags: ["Security", "Ethical Hacking", "Exploitation"],
   },
 
   // Computer Networking
@@ -630,9 +707,10 @@ export const books: Book[] = [
     pages: 864,
     year: 2021,
     description: "Modern approach to computer networking with internet focus.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Computer%20Networking",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Computer%20Networking",
     level: "All Levels",
-    tags: ["Networking", "TCP/IP", "Internet", "Protocols"]
+    tags: ["Networking", "TCP/IP", "Internet", "Protocols"],
   },
   {
     id: "network-2",
@@ -643,9 +721,10 @@ export const books: Book[] = [
     pages: 1024,
     year: 2011,
     description: "Detailed explanation of TCP/IP protocols with examples.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Computer%20Networking",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Computer%20Networking",
     level: "Advanced",
-    tags: ["Networking", "TCP/IP", "Protocols", "Deep Dive"]
+    tags: ["Networking", "TCP/IP", "Protocols", "Deep Dive"],
   },
 
   // Interview Preparation
@@ -657,11 +736,13 @@ export const books: Book[] = [
     language: "General",
     pages: 280,
     year: 2020,
-    description: "Insider's guide to system design interviews at tech companies.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    description:
+      "Insider's guide to system design interviews at tech companies.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
     level: "Intermediate",
     tags: ["Interview", "System Design", "Architecture"],
-    featured: true
+    featured: true,
   },
   {
     id: "interview-2",
@@ -672,9 +753,10 @@ export const books: Book[] = [
     pages: 528,
     year: 2012,
     description: "The insiders' guide to coding interviews with solutions.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
     level: "Intermediate",
-    tags: ["Interview", "Coding", "Problem Solving"]
+    tags: ["Interview", "Coding", "Problem Solving"],
   },
   {
     id: "interview-3",
@@ -685,9 +767,10 @@ export const books: Book[] = [
     pages: 135,
     year: 2018,
     description: "225 Machine Learning Interview Questions with Solutions.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
     level: "Intermediate",
-    tags: ["Interview", "Coding", "Problem Solving", "Python"]
+    tags: ["Interview", "Coding", "Problem Solving", "Python"],
   },
   {
     id: "interview-4",
@@ -713,23 +796,26 @@ export const books: Book[] = [
     pages: 300,
     year: 2019,
     description: "A modern introduction to competitive programming.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
     level: "Intermediate",
-    tags: ["Competitive Programming"]
+    tags: ["Competitive Programming"],
   },
   {
-  id: "dbms-3",
-  title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
-  author: "Alan Beaulieu",
-  category: "DataBase Management",
-  language: "General",
-  pages: 408,
-  year: 2020,
-  description: "A comprehensive guide to mastering SQL fundamentals and advanced querying techniques.",
-  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/DBMS/Learning SQL Generate, Manipulate,and Retrieve Data by Alan Beaulieu 3rd Edition.pdf",
-  level: "Beginner",
-  tags: ["SQL", "Database", "DBMS"]
-},
+    id: "dbms-3",
+    title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
+    author: "Alan Beaulieu",
+    category: "DataBase Management",
+    language: "General",
+    pages: 408,
+    year: 2020,
+    description:
+      "A comprehensive guide to mastering SQL fundamentals and advanced querying techniques.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/blob/main/DBMS/Learning SQL Generate, Manipulate,and Retrieve Data by Alan Beaulieu 3rd Edition.pdf",
+    level: "Beginner",
+    tags: ["SQL", "Database", "DBMS"],
+  },
   {
     id: "dbms-1",
     title: "DataBase and Management System",
@@ -739,24 +825,27 @@ export const books: Book[] = [
     pages: 1273,
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
     level: "Intermediate",
-    tags: ["DataBase", "DB", "Web dev"]
+    tags: ["DataBase", "DB", "Web dev"],
   },
   {
-  id: "dbms-2",
-  title: "Database Management Systems (3rd Edition)",
-  author: "Raghu Ramakrishnan, Johannes Gehrke",
-  category: "Database Management",
-  language: "General",
-  pages: 1098,
-  year: 2003,
-  description: "Comprehensive guide covering database design, storage, and query processing concepts used in modern DBMS systems.",
-  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-  level: "Advanced",
-  tags: ["DBMS", "Databases", "SQL", "Data Management"],
+    id: "dbms-2",
+    title: "Database Management Systems (3rd Edition)",
+    author: "Raghu Ramakrishnan, Johannes Gehrke",
+    category: "Database Management",
+    language: "General",
+    pages: 1098,
+    year: 2003,
+    description:
+      "Comprehensive guide covering database design, storage, and query processing concepts used in modern DBMS systems.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    level: "Advanced",
+    tags: ["DBMS", "Databases", "SQL", "Data Management"],
   },
-   // Operating System
+  // Operating System
   {
     id: "operating-system-1",
     title: "Operating Systems: Three Easy Pieces",
@@ -765,13 +854,13 @@ export const books: Book[] = [
     language: "General",
     pages: 643,
     year: 2014,
-    description: "Comprehensive textbook covering core OS concepts like virtualization, concurrency, and persistence.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Operating%20Systems",
+    description:
+      "Comprehensive textbook covering core OS concepts like virtualization, concurrency, and persistence.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Operating%20Systems",
     level: "All Levels",
     tags: ["Operating Systems"],
-    
   },
-
 ];
 
 export const categories = [
