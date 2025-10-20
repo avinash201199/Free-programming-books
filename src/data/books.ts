@@ -106,6 +106,31 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Python", "Basic Definition", "OOPs", "Intermediate"],
   },
+  {
+    id: "python-7",
+    title: "Getting Started with Python: From Basics to Applications",
+    author: "Hans-Petter",
+    category: "Python Programming",
+    language: "Python",
+    pages: 140,
+    year: 2019,
+    description:
+      "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Intermediate",
+    tags: [
+      "Installation",
+      "Beginner",
+      "Intermediate",
+      "Functions",
+      "OOP",
+      "Modules",
+      "File Handling",
+      "Error Handling",
+      "Debugging",
+    ],
+  },
   // Java Books
   {
     id: "java-1",
@@ -320,6 +345,36 @@ export const books: Book[] = [
     tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"],
   },
 
+  {
+    id: "dsa-5",
+    title: "Data Structures And Algorithms Made Easy In C",
+    author: "Narasimha Karumanchi",
+    category: "Data Structure & Algorithm",
+    language: "C",
+    pages: 828,
+    year: 2017,
+    description: "An accessible introduction to algorithms for non-experts.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    level: "Beginner",
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"],
+  },
+
+  {
+    id: "dsa-5",
+    title: "Data Structures And Algorithms Made Easy In C",
+    author: "Narasimha Karumanchi",
+    category: "Data Structure & Algorithm",
+    language: "C",
+    pages: 828,
+    year: 2017,
+    description: "An accessible introduction to algorithms for non-experts.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    level: "Beginner",
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "C"],
+  },
+
   // Machine Learning
   {
     id: "ml-1",
@@ -355,12 +410,13 @@ export const books: Book[] = [
   {
     id: "ml-3",
     title: "Deep Learning",
-    author: "Ian Goodfellow",
+    author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
     category: "Machine Learning",
     language: "General",
-    pages: 775,
+    pages: 801,
     year: 2016,
-    description: "The definitive textbook on deep learning from MIT Press.",
+    description:
+      "Deep Learning is one of the most widely recognized and authoritative books covering modern deep learning theory, algorithms, and applications.",
     downloadLink:
       "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Advanced",
@@ -368,6 +424,20 @@ export const books: Book[] = [
   },
   {
     id: "ml-4",
+    title: "Machine Learning",
+    author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
+    category: "Machine Learning",
+    language: "General",
+    pages: 741,
+    year: 2016,
+    description: "The Beginner textbook on Machine Learning from Pearson.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Beginner",
+    tags: ["Machine Learning", "ML", "DS"],
+  },
+  {
+    id: "ml-5",
     title: "Mathematics for Machine Learning",
     author: "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
     category: "Machine Learning",
@@ -383,25 +453,34 @@ export const books: Book[] = [
     featured: true,
   },
   {
-    id: "ml-5",
-    title: "The Little Book of Deep Learning",
-    author: "François Fleuret",
+    id: "ml-6",
+    title: "Neural Networks",
+    author: "Simon Haykin",
     category: "Machine Learning",
     language: "General",
-    pages: 129,
-    year: 2023,
-    level: "Intermediate",
+    pages: 823,
+    year: 2005,
     description:
-      "A concise and practical introduction to deep learning, covering fundamental concepts, architectures, and techniques in a clear and accessible manner for practitioners and students.",
-    downloadLink: "https://fleuret.org/public/lbdl.pdf",
-    tags: [
-      "DeepLearning",
-      "NeuralNetworks",
-      "MachineLearning",
-      "AI",
-      "Practical",
-    ],
-    featured: true,
+      "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Advanced",
+    tags: ["Deep Learning", "Neural Networks", "AI"],
+  },
+  {
+    id: "ml-7",
+    title: "Neural Network Design",
+    author: "Martin T. Hagan",
+    category: "Machine Learning",
+    language: "General",
+    pages: 1012,
+    year: 1995,
+    description:
+      "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Advanced",
+    tags: ["Deep Learning", "Neural Networks", "AI"],
   },
 
   // AI Books
@@ -722,6 +801,21 @@ export const books: Book[] = [
       "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
     level: "Intermediate",
     tags: ["Competitive Programming"],
+  },
+  {
+    id: "dbms-3",
+    title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
+    author: "Alan Beaulieu",
+    category: "DataBase Management",
+    language: "General",
+    pages: 408,
+    year: 2020,
+    description:
+      "A comprehensive guide to mastering SQL fundamentals and advanced querying techniques.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/blob/main/DBMS/Learning SQL Generate, Manipulate,and Retrieve Data by Alan Beaulieu 3rd Edition.pdf",
+    level: "Beginner",
+    tags: ["SQL", "Database", "DBMS"],
   },
   {
     id: "dbms-1",
