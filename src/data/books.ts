@@ -772,6 +772,22 @@ export const books: Book[] = [
     
   },
 
+  // Web Development - Version Control
+  {
+    id: "web-6",
+    title: "Pro Git",
+    author: "Scott Chacon, Ben Straub",
+    category: "Web Development",
+    language: "General",
+    pages: 574,
+    year: 2024,
+    description: "Comprehensive guide to Git version control system, covering everything from basics to advanced workflows. Free and open source.",
+    downloadLink: "https://git-scm.com/book/en/v2",
+    level: "All Levels",
+    tags: ["Git", "Version Control", "DevOps", "Collaboration"],
+    featured: true
+  },
+
 ];
 
 export const categories = [
