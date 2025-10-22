@@ -764,7 +764,7 @@ export const books: Book[] = [
     language: "General",
     pages: 1240,
     year: 2008,
-    description: "The Complete Book"
+    description: "The Complete Book",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
     level: "Advanced",
     tags: ["DBMS", "Databases", "SQL", "Data Management"],
