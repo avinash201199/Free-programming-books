@@ -14,6 +14,21 @@ export interface Book {
 }
 
 export const books: Book[] = [
+  // C# and Dot Net Books
+  {
+    id: "c#&.net-1",
+    title: "Pro C# 10 with .NET 6",
+    author: "Andrew Troelsen, Phil Japikse",
+    category: "C# and .NET",
+    language: "C#",
+    pages: 1680,
+    year: 2022,
+    description: "A user-friendly textbook for C3 and .NET learners.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C# and Dot Net/C# and DOT NET",
+    level: "Beginner",
+    tags: ["C#", "Dot Net", "Beginner-Friendly"],
+    featured: true
+  },
   // Python Books
   {
     id: "python-1",
@@ -55,6 +70,21 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Intermediate",
     tags: ["Python", "Data Analysis", "Pandas", "NumPy"]
+  },
+
+  // JavaScript books
+  {
+    id : "JavaScript Notes for Professionals",
+    title: "Notes for JavaScript",
+    author: "GoalKicker.com",
+    category: "JavaScript Programming",
+    language: "JavaScript",
+    pages: 510,
+    year: 2016,
+    description: "This book is compiled from Stack Overflow Documentation, the content is written by the beautiful people at Stack Overflow.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/JavaScript",
+    level: "All Levels",
+    tags: ["JavaScript", "Beginner", "Intermediate", "Advanced"]
   },
   {
     id: "python-4",
@@ -118,7 +148,20 @@ export const books: Book[] = [
     "Debugging",
 
   ]
-}
+},
+  {
+    id: "python-8",
+    title: "Learn Python 3",
+    author: "Ankit Mahato",
+    category: "Python Programming",
+    language: "Python",
+    pages: 149,
+    year: 2022,
+    description: "Open Source Book",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Beginner",
+    tags: ["Python", "Comprehensive", "Beginner"]
+  }
 ,
   // Java Books
   {
@@ -327,34 +370,34 @@ export const books: Book[] = [
   },
 
   // Machine Learning
-  {
-    id: "ml-1",
-    title: "Hands-On Machine Learning",
-    author: "Aurélien Géron",
-    category: "Machine Learning",
-    language: "Python",
-    pages: 856,
-    year: 2022,
-    description: "Practical guide to ML with Scikit-Learn, Keras, and TensorFlow.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Intermediate",
-    tags: ["Machine Learning", "Python", "TensorFlow", "Scikit-Learn"],
-    featured: true
-  },
-  {
-    id: "ml-2",
-    title: "Pattern Recognition and Machine Learning",
-    author: "Christopher Bishop",
-    category: "Machine Learning",
-    language: "General",
-    pages: 738,
-    year: 2006,
-    description: "Comprehensive introduction to the fields of pattern recognition and machine learning.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Machine Learning", "Pattern Recognition", "Theory"]
-  },
-  {
+ {
+  id: "ml-1",
+  title: "Hands-On Machine Learning",
+  author: "Aurélien Géron",
+  category: "Machine Learning",
+  language: "Python",
+  pages: 856,
+  year: 2022,
+  description: "Practical guide to ML with Scikit-Learn, Keras, and TensorFlow.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Intermediate",
+  tags: ["Machine Learning", "Python", "TensorFlow", "Scikit-Learn"],
+  featured: true
+},
+{
+  id: "ml-2",
+  title: "Pattern Recognition and Machine Learning",
+  author: "Christopher Bishop",
+  category: "Machine Learning",
+  language: "General",
+  pages: 738,
+  year: 2006,
+  description: "Comprehensive introduction to the fields of pattern recognition and machine learning.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Machine Learning", "Pattern Recognition", "Theory"]
+},
+{
   id: "ml-3",
   title: "Deep Learning",
   author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
@@ -366,61 +409,87 @@ export const books: Book[] = [
   downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
   level: "Advanced",
   tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-  {
-    id: "ml-4",
-    title: "Machine Learning",
-    author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
-    category: "Machine Learning",
-    language: "General",
-    pages: 741,
-    year: 2016,
-    description: "The Beginner textbook on Machine Learning from Pearson.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Beginner",
-    tags: ["Machine Learning", "ML", "DS"]
-  },
-  {
-  "id": "ml-5",
-  "title": "Mathematics for Machine Learning",
-  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
-  "category": "Machine Learning",
-  "language": "General",
-  "pages": 417,
-  "year": 2020,
-  "level": "All Levels",
-  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
-  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
-  "featured": true
-  },
-  {
-    id: "ml-6",
-    title: "Neural Networks",
-    author: "Simon Haykin",
-    category: "Machine Learning",
-    language: "General",
-    pages: 823,
-    year: 2005,
-    description: "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-  {
-    id: "ml-7",
-    title: "Neural Network Design",
-    author: "Martin T. Hagan",
-    category: "Machine Learning",
-    language: "General",
-    pages: 1012,
-    year: 1995,
-    description: "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-
+},
+{
+  id: "ml-4",
+  title: "Machine Learning",
+  author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
+  category: "Machine Learning",
+  language: "General",
+  pages: 741,
+  year: 2016,
+  description: "The Beginner textbook on Machine Learning from Pearson.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Beginner",
+  tags: ["Machine Learning", "ML", "DS"]
+},
+{
+  id: "ml-5",
+  title: "Mathematics for Machine Learning",
+  author: "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  category: "Machine Learning",
+  language: "General",
+  pages: 417,
+  year: 2020,
+  level: "All Levels",
+  description: "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  tags: ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+  featured: true
+},
+{
+  id: "ml-6",
+  title: "The Little Book of Deep Learning",
+  author: "François Fleuret",
+  category: "Machine Learning",
+  language: "General",
+  pages: 129,
+  year: 2023,
+  level: "Intermediate",
+  description: "A concise and practical introduction to deep learning, covering fundamental concepts, architectures, and techniques in a clear and accessible manner for practitioners and students.",
+  downloadLink: "https://fleuret.org/public/lbdl.pdf",
+  tags: ["DeepLearning", "NeuralNetworks", "MachineLearning", "AI", "Practical"],
+  featured: true
+},
+{
+  id: "ml-7",
+  title: "Neural Networks",
+  author: "Simon Haykin",
+  category: "Machine Learning",
+  language: "General",
+  pages: 823,
+  year: 2005,
+  description: "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Deep Learning", "Neural Networks", "AI"]
+},
+{
+  id: "ml-8",
+  title: "Neural Network Design",
+  author: "Martin T. Hagan",
+  category: "Machine Learning",
+  language: "General",
+  pages: 1012,
+  year: 1995,
+  description: "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Deep Learning", "Neural Networks", "AI"]
+},
+{
+  id: "ml-9",
+  title: "Natural Language Processing with Python",
+  author: "Steven Bird, Ewan Klein, Edward Loper",
+  category: "Machine Learning",
+  language: "Python",
+  pages: 504,
+  year: 2009,
+  description: "Analyzing text with the Natural Language Toolkit. Covers text processing, classification, and information extraction.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Beginner",
+  tags: ["NLP", "Python", "NLTK", "Text Processing"]
+},
 
   // AI Books
   {
@@ -449,6 +518,19 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial%20Intelligence",
     level: "Beginner",
     tags: ["AI", "Future", "Philosophy", "Society"]
+  },
+  {
+    id: "ai-3",
+    title: "Artificial Intelligence",
+    author: "Elaine Rich, Kevin Knight, Shivashankar B Nair ",
+    category: "Artificial Intelligence",
+    language: "General",
+    pages: 585,
+    year: 2010,
+    description: "Get enriched with the foundation of AI and ML under the Mathematical world.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial Intelligence/AIML.pdf",
+    level: "Beginner",
+    tags: ["AI", "Future", "Statistics", "Probability"]
   },
 
   // Data Science
@@ -507,6 +589,8 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["C", "Modern", "Comprehensive"]
   },
+
+
 
   // C++ Programming
   {
@@ -756,6 +840,20 @@ export const books: Book[] = [
   level: "Advanced",
   tags: ["DBMS", "Databases", "SQL", "Data Management"],
   },
+  { 
+    id: "dbms-4",
+    title: "Database System Concepts (6th Edition)",
+    author: "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+    category: "Database Management",
+    language: "General",
+    pages: 1376,
+    year: 2010,
+    description: "A foundational textbook that explains the fundamental concepts of database management systems (DBMS) in an intuitive way",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    level: "Advanced",
+    tags: ["DBMS", "Databases", "SQL", "Database Management"],
+    featured: true
+    },
   {
     id: "dbms-5",
     title: "Database Systems (2nd Edition)",
@@ -768,7 +866,7 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
     level: "Advanced",
     tags: ["DBMS", "Databases", "SQL", "Data Management"],
-    },
+  },
    // Operating System
   {
     id: "operating-system-1",
@@ -788,6 +886,7 @@ export const books: Book[] = [
 ];
 
 export const categories = [
+  "C# and Dot Net",
   "Python Programming",
   "Java Programming",
   "Web Development",
@@ -809,6 +908,7 @@ export const categories = [
 ];
 
 export const languages = [
+  "C# & .NET",
   "Python",
   "Java",
   "JavaScript",
