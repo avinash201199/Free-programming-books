@@ -560,6 +560,19 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["Data Science", "Python", "Fundamentals"]
   },
+  {
+    id: "ds-3",
+    title: "Julia for Data Science",
+    category: "Data Science",
+    language: "Julia",
+    pages: 339,
+    author: "Jose Storopoli",
+    year: 2016,
+    level: "Intermediate",
+    description: "A comprehensive guide to using the Julia programming language for data science, covering data manipulation, visualization, and statistical analysis.",
+    downloadLink: "https://example.com/julia-data-science-2016.pdf",
+    tags: ["Julia", "Data Science", "Statistics", "Data Manipulation"],
+    },
 
   // C Programming
   {
@@ -904,7 +917,8 @@ export const languages = [
   "Kotlin",
   "HTML/CSS",
   "dart",
-  "General"
+  "General",
+  "Julia"
 ];
 
 export const levels = ["Beginner", "Intermediate", "Advanced", "All Levels"];
