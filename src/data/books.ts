@@ -163,6 +163,20 @@ export const books: Book[] = [
     tags: ["Python", "Comprehensive", "Beginner"]
   }
 ,
+{
+  "id": "python-9", 
+  "title": "Automate the Boring Stuff with Python",
+  "author": "Al Sweigart",
+  "category": "Python Programming",
+  "language": "Python",
+  "pages": 504,
+  "year": 2020,
+  "level": "Beginner",
+  "description": "Practical programming for total beginners. Learn to automate tasks like updating spreadsheets, downloading files, and sending emails.",
+  "downloadLink": "https://raw.githubusercontent.com/sasi-upparapalli/Free-programming-books/main/Python/AutomateBoringStuff_AlSweigart_2020.pdf",
+  "tags": ["Python", "Automation", "Beginner"],
+  "featured": false
+},
   // Java Books
   {
     id: "java-1",
@@ -892,6 +906,7 @@ export const categories = [
   "Competitive Programming",
   "Flutter Development",
   "Operating System",
+  
 ];
 
 export const languages = [
