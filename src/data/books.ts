@@ -560,6 +560,19 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["Data Science", "Python", "Fundamentals"]
   },
+  {
+    id: "ds-3",
+    title: "sofware-engineering-9th-edition",
+    author: "Ian Sommerville",
+    category: "Data Science",
+    language: "General",
+    pages: 832,
+    year: 2015,
+    description: "Comprehensive guide to software engineering principles and practices.",
+    downloadLink: "https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf",
+    level: "All Levels",
+    tags: ["Software Engineering", "Principles", "Practices", "Data Science"]
+  }
 
   // C Programming
   {
@@ -731,7 +744,6 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Networking", "TCP/IP", "Protocols", "Deep Dive"]
   },
-
   // Interview Preparation
   {
     id: "interview-1",
