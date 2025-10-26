@@ -632,6 +632,19 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["C++", "Modern C++", "Best Practices"]
   },
+  {
+  id: "cpp-3",
+  title: "C++: The Complete Reference (Third Edition)",
+  author: "Herbert Schildt",
+  category: "C++ Programming",
+  language: "C++",
+  pages: 1041,
+  year: 1998,
+  description: "A comprehensive guide covering the complete C++ language, including syntax, OOP, templates, and the Standard Template Library, making it a go-to reference for beginners and experienced programmers alike.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
+  level: "Advanced",
+  tags: ["C++", "Reference", "OOP", "STL", "Programming Guide"]
+  },
 
   // Android Development
   {
