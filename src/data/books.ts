@@ -376,7 +376,7 @@ export const books: Book[] = [
     author: "Granville Barnett and Luca Del Tongo",
     category: "Data Structure & Algorithm",
     language: "General",
-    pages: 781,
+    pages: 112,
     year: 2008,
     description: "Data Structures and Algorithms by Granville Barne!",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
