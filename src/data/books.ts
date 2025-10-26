@@ -576,6 +576,20 @@ export const books: Book[] = [
     tags: ["AI", "Future", "Statistics", "Probability"]
   },
 
+  {
+    id: "ai-5",
+    title: "Aritficial_Intelegence",
+    author: "Ptrick Henry Winston",
+    category: "Artificial Intelligence",
+    language: "AI",
+    pages: 640,
+    year: 2010,
+    description: "Aritficial_Intelegence_Third_Edition by Ptrick Henry Winston",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial Intelligence/AIML.pdf",
+    level: "Beginner",
+    tags: ["AI", "Future", "Statistics", "Probability"]
+  },
+
   // Data Science
   {
     id: "ds-1",
