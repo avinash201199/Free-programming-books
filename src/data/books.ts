@@ -218,6 +218,7 @@ export const books: Book[] = [
     tags: ["Java", "Reference", "Comprehensive"]
   },
 
+
   // Web Development Books
   {
     id: "web-1",
@@ -367,6 +368,20 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "Beginner",
     tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "C"]
+  },
+
+      {
+    id: "dsa-6",
+    title: "Data Structures and Algorithms",
+    author: "Granville Barnett and Luca Del Tongo",
+    category: "Data Structure & Algorithm",
+    language: "General",
+    pages: 781,
+    year: 2008,
+    description: "Data Structures and Algorithms by Granville Barne!",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
+    level: "All Levels",
+    tags: ["Java", "Reference", "Comprehensive"]
   },
 
   // Machine Learning
