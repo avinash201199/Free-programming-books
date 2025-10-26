@@ -562,6 +562,20 @@ export const books: Book[] = [
     tags: ["AI", "Future", "Statistics", "Probability"]
   },
 
+  {
+    id: "ai-4",
+    title: "AI Foundations of Computational Agents",
+    author: "DavidL.Poole & Alan K. Mackworth ",
+    category: "Artificial Intelligence",
+    language: "AI",
+    pages: 903,
+    year: NILL,
+    description: "AI Foundations of Computational Agents 3rd Ed",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial Intelligence/AIML.pdf",
+    level: "Beginner",
+    tags: ["AI", "Future", "Statistics", "Probability"]
+  },
+
   // Data Science
   {
     id: "ds-1",
