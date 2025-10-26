@@ -506,6 +506,20 @@ export const books: Book[] = [
   tags: ["NLP", "Python", "NLTK", "Text Processing"]
 },
 
+{
+  id: "ml-10",
+  title: "Foundations_of_Machine_Learning",
+  author: "Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar",
+  category: "Machine Learning",
+  language: "Python",
+  pages: 427,
+  year: 2009,
+  description: "Foundations_of_Machine_Learning by  Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Beginner",
+  tags: ["NLP", "Python", "NLTK", "Text Processing"]
+},
+
   // AI Books
   {
     id: "ai-1",
@@ -555,7 +569,7 @@ export const books: Book[] = [
     category: "Artificial Intelligence",
     language: "AI",
     pages: 903,
-    year: NILL,
+    year: 2010,
     description: "AI Foundations of Computational Agents 3rd Ed",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial Intelligence/AIML.pdf",
     level: "Beginner",
