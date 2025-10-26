@@ -841,6 +841,19 @@ export const books: Book[] = [
     tags: ["Competitive Programming"]
   },
   {
+    id: "competitiveprogramming-2",
+    title: "The Programming Contest Training Manual",
+    author: "Steven S. Skiena, Miguel A. Revilla",
+    category: "Competitive Programming",
+    language: "General",
+    pages: 360,
+    year: 2020,
+    description: "A collection of programming problems and strategies for contest training.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/competitiveprogramming/b2-programming_challenges.pdf",
+    level: "Intermediate",
+    tags: ["Competitive Programming", "Problems", "Training"]
+  },
+  {
   id: "dbms-3",
   title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
   author: "Alan Beaulieu",
