@@ -719,6 +719,20 @@ export const books: Book[] = [
     tags: ["Kubernetes", "DevOps", "Containers"]
   },
 
+  {
+    id: "cloud-3",
+    title: "Cloud Computing",
+    author: " Nayan B. Ruparelia",
+    category: "Cloud Computing",
+    language: "General",
+    pages: 278,
+    year: 2017,
+    description: "Cloud Computing by Nayan B. Ruparelia",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Cloud",
+    level: "Intermediate",
+    tags: ["Kubernetes", "DevOps", "Containers"]
+  },
+
   // Cyber Security
   {
     id: "security-1",
