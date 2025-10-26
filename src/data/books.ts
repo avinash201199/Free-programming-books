@@ -161,8 +161,22 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Beginner",
     tags: ["Python", "Comprehensive", "Beginner"]
-  }
-,
+  },
+  {
+  id: "python-9",
+  title: "Let Us Python",
+  author: "Yashavant Kanetkar",
+  category: "Python Programming",
+  language: "Python",
+  pages: 350,
+  year: 2020,
+  level: "Beginner",
+  description: "A practical introduction to Python programming by Yashavant Kanetkar.",
+  downloadLink: "https://github.com/Shreya860/Free-programming-books/blob/main/Python%20Programming/LetUsPython_YashavantKanetkar_2020.pdf?raw=true",
+  tags: ["Python", "Beginner", "Programming Basics"],
+  featured: false
+},
+
   // Java Books
   {
     id: "java-1",
