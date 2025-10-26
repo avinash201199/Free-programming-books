@@ -840,7 +840,7 @@ export const books: Book[] = [
   level: "Advanced",
   tags: ["DBMS", "Databases", "SQL", "Data Management"],
   },
-  {
+  { 
     id: "dbms-4",
     title: "Database System Concepts (6th Edition)",
     author: "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
@@ -854,6 +854,19 @@ export const books: Book[] = [
     tags: ["DBMS", "Databases", "SQL", "Database Management"],
     featured: true
     },
+  {
+    id: "dbms-5",
+    title: "Database Systems (2nd Edition)",
+    author: "Hector Garcia-Molina,Jeffrey D. Ullman,Jennifer Widom",
+    category: "Database Management",
+    language: "General",
+    pages: 1240,
+    year: 2008,
+    description: "The Complete Book",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    level: "Advanced",
+    tags: ["DBMS", "Databases", "SQL", "Data Management"],
+  },
    // Operating System
   {
     id: "operating-system-1",
