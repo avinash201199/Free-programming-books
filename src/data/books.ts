@@ -161,8 +161,22 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Beginner",
     tags: ["Python", "Comprehensive", "Beginner"]
-  }
-,
+  },
+  {
+  id: "python-9",
+  title: "Let Us Python",
+  author: "Yashavant Kanetkar",
+  category: "Python Programming",
+  language: "Python",
+  pages: 350,
+  year: 2020,
+  level: "Beginner",
+  description: "A practical introduction to Python programming by Yashavant Kanetkar.",
+  downloadLink: "https://github.com/Shreya860/Free-programming-books/blob/main/Python%20Programming/LetUsPython_YashavantKanetkar_2020.pdf?raw=true",
+  tags: ["Python", "Beginner", "Programming Basics"],
+  featured: false
+},
+
   // Java Books
   {
     id: "java-1",
@@ -217,6 +231,7 @@ export const books: Book[] = [
     level: "All Levels",
     tags: ["Java", "Reference", "Comprehensive"]
   },
+
 
   // Web Development Books
   {
@@ -367,6 +382,20 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
     level: "Beginner",
     tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "C"]
+  },
+
+      {
+    id: "dsa-6",
+    title: "Data Structures and Algorithms",
+    author: "Granville Barnett and Luca Del Tongo",
+    category: "Data Structure & Algorithm",
+    language: "General",
+    pages: 112,
+    year: 2008,
+    description: "Data Structures and Algorithms by Granville Barne!",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Java",
+    level: "All Levels",
+    tags: ["Java", "Reference", "Comprehensive"]
   },
 
   // Machine Learning
@@ -547,6 +576,20 @@ export const books: Book[] = [
     tags: ["AI", "Future", "Statistics", "Probability"]
   },
 
+  {
+    id: "ai-4",
+    title: "AI Foundations of Computational Agents",
+    author: "DavidL.Poole & Alan K. Mackworth ",
+    category: "Artificial Intelligence",
+    language: "AI",
+    pages: 903,
+    year: NILL,
+    description: "AI Foundations of Computational Agents 3rd Ed",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Aritificial Intelligence/AIML.pdf",
+    level: "Beginner",
+    tags: ["AI", "Future", "Statistics", "Probability"]
+  },
+
   // Data Science
   {
     id: "ds-1",
@@ -645,6 +688,19 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
     level: "Intermediate",
     tags: ["C++", "Modern C++", "Best Practices"]
+  },
+  {
+  id: "cpp-3",
+  title: "C++: The Complete Reference (Third Edition)",
+  author: "Herbert Schildt",
+  category: "C++ Programming",
+  language: "C++",
+  pages: 1041,
+  year: 1998,
+  description: "A comprehensive guide covering the complete C++ language, including syntax, OOP, templates, and the Standard Template Library, making it a go-to reference for beginners and experienced programmers alike.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C%2B%2B",
+  level: "Advanced",
+  tags: ["C++", "Reference", "OOP", "STL", "Programming Guide"]
   },
 
   // Android Development
@@ -758,7 +814,6 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Networking", "TCP/IP", "Protocols", "Deep Dive"]
   },
-
   // Interview Preparation
   {
     id: "interview-1",
@@ -829,6 +884,19 @@ export const books: Book[] = [
     tags: ["Competitive Programming"]
   },
   {
+    id: "competitiveprogramming-2",
+    title: "The Programming Contest Training Manual",
+    author: "Steven S. Skiena, Miguel A. Revilla",
+    category: "Competitive Programming",
+    language: "General",
+    pages: 360,
+    year: 2020,
+    description: "A collection of programming problems and strategies for contest training.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/competitiveprogramming/b2-programming_challenges.pdf",
+    level: "Intermediate",
+    tags: ["Competitive Programming", "Problems", "Training"]
+  },
+  {
   id: "dbms-3",
   title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
   author: "Alan Beaulieu",
@@ -867,7 +935,7 @@ export const books: Book[] = [
   level: "Advanced",
   tags: ["DBMS", "Databases", "SQL", "Data Management"],
   },
-  {
+  { 
     id: "dbms-4",
     title: "Database System Concepts (6th Edition)",
     author: "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
@@ -881,6 +949,19 @@ export const books: Book[] = [
     tags: ["DBMS", "Databases", "SQL", "Database Management"],
     featured: true
     },
+  {
+    id: "dbms-5",
+    title: "Database Systems (2nd Edition)",
+    author: "Hector Garcia-Molina,Jeffrey D. Ullman,Jennifer Widom",
+    category: "Database Management",
+    language: "General",
+    pages: 1240,
+    year: 2008,
+    description: "The Complete Book",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    level: "Advanced",
+    tags: ["DBMS", "Databases", "SQL", "Data Management"],
+  },
    // Operating System
   {
     id: "operating-system-1",
@@ -895,6 +976,21 @@ export const books: Book[] = [
     level: "All Levels",
     tags: ["Operating Systems"],
     
+  },
+
+  // MATLAB / Numerical Computing
+  {
+    id: "matlab-1",
+    title: "MATLAB Programming for Engineers",
+    author: "Stephen J. Chapman",
+    category: "MATLAB",
+    language: "MATLAB",
+    pages: 480,
+    year: 2012,
+    description: "A practical introduction to MATLAB with examples and exercises focusing on engineering problems and numerical methods.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/Matlab/MATLABNotesForProfessionals.pdf",
+    level: "Beginner",
+    tags: ["MATLAB", "Numerical", "Engineering", "Beginner"],
   },
 
 ];
@@ -919,6 +1015,7 @@ export const categories = [
   "Competitive Programming",
   "Flutter Development",
   "Operating System",
+  "MATLAB",
 ];
 
 export const languages = [
