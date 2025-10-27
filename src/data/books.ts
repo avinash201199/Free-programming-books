@@ -287,6 +287,21 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["HTML", "CSS", "Web Design", "Beginner"]
   },
+
+  {
+    id: "web-5",
+    title: "ReactJS Foundations",
+    author: "Chris Minnick",
+    category: "Web Development",
+    language: "HTML/CSS",
+    pages: 508,
+    year: 2022,
+    description: "Beautiful visual guide to ReactJS Foundations for beginners.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    level: "Beginner",
+    tags: ["HTML", "CSS", "Web Design", "Beginner"]
+  },
+
   {
     id: "Flutter-1",
     title: "Beginning Flutter A hands on guide to app development",
