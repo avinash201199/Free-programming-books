@@ -303,6 +303,20 @@ export const books: Book[] = [
   },
 
   {
+    id: "web-6",
+    title: "NodeJSNotesForProfessionals",
+    author: "https://goalkicker.com/",
+    category: "Web Development",
+    language: "NodeJS",
+    pages: 300,
+    year: 2022,
+    description: "This book is compiled from goalkicker.com Documentation, the content is written by the beautiful people at goalkicker.com",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
+    level: "Beginner",
+    tags: ["HTML", "CSS", "Web Design", "Beginner"]
+  },
+
+  {
     id: "Flutter-1",
     title: "Beginning Flutter A hands on guide to app development",
     author: "Marco L. Napoli",
