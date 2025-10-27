@@ -14,6 +14,21 @@ export interface Book {
 }
 
 export const books: Book[] = [
+  // OOSE 
+  {
+    id: "oose-1",
+    title: "Object Oriented Software Engineering",
+    author: "Bernd Bruegge & Allen H. Dutoit",
+    category: "Software Development",
+    language: "General",
+    pages: 817,
+    year: 2010,
+    description: "A user-friendly textbook for Learning System design and Software Development",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/OOSE/OOSE.pdf",
+    level: "Beginner",
+    tags: ["Software", "UML", "System Design", "Beginner-Friendly"],
+    featured: true
+  },
   // C# and Dot Net Books
   {
     id: "c#&.net-1",
@@ -982,6 +997,7 @@ export const books: Book[] = [
 ];
 
 export const categories = [
+  "OOSE",
   "C# and Dot Net",
   "Python Programming",
   "Java Programming",
