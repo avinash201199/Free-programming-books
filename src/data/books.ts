@@ -605,17 +605,17 @@ export const books: Book[] = [
   },
   {
     id: "ds-3",
-    title: "sofware-engineering-9th-edition",
-    author: "Ian Sommerville",
+    title: "Julia for Data Science",
     category: "Data Science",
-    language: "General",
-    pages: 832,
-    year: 2015,
-    description: "Comprehensive guide to software engineering principles and practices.",
-    downloadLink: "https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf",
-    level: "All Levels",
-    tags: ["Software Engineering", "Principles", "Practices", "Data Science"]
-  }
+    language: "Julia",
+    pages: 339,
+    author: "Jose Storopoli",
+    year: 2016,
+    level: "Intermediate",
+    description: "A comprehensive guide to using the Julia programming language for data science, covering data manipulation, visualization, and statistical analysis.",
+    downloadLink: "https://example.com/julia-data-science-2016.pdf",
+    tags: ["Julia", "Data Science", "Statistics", "Data Manipulation"],
+    },
 
   // C Programming
   {
@@ -1029,7 +1029,7 @@ export const languages = [
   "HTML/CSS",
   "dart",
   "General",
-  "MATLAB"
+  "Julia"
 ];
 
 export const levels = ["Beginner", "Intermediate", "Advanced", "All Levels"];
