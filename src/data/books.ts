@@ -963,6 +963,20 @@ export const books: Book[] = [
     tags: ["Operating Systems"],
     
   },
+  {
+    id: "operating-system-2",
+    title: "Operating Systems: Internals and Design Principles (6th Edition)",
+    author: "William Stallings",
+    category: "Operating Systems",
+    language: "English",
+    pages: 816,
+    year: 2008,
+    level: "Intermediate",
+    description: "A comprehensive guide to operating system design, covering process management, memory organization, security, and file systems with detailed case studies.",
+    downloadLink: "https://example.com/Operating-Systems-William-Stallings-6th-edition.pdf",
+    tags: ["Operating Systems", "System Design", "Computer Science"],
+    featured: false
+  },
 
   // MATLAB / Numerical Computing
   {
